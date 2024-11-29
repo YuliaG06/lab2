@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Інформаційний портал</title>
+    <!-- <link rel="stylesheet" href="styles_flex.css"> --> <!-- Для версії А -->
+    <link rel="stylesheet" href="styles_grid.css"> <!-- Для версії Б -->
+    <!-- <link rel="stylesheet" href="styles-classic.css"> --> <!-- Для версії В -->
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Інформаційний портал</h1>
+        </header>
+
+        <main class="main-content">
+            <aside class="left-sidebar">
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Головна</a></li>
+                        <li><a href="page2.html">Про нас</a></li>
+                        <li><a href="page3.html">Послуги</a></li>
+                        <li><a href="page4.html">Галерея</a></li>
+                        <li><a href="page5.html">Контакти</a></li>
+                    </ul>
+                </nav>
+            </aside>
+
+            <div class="center-content">
+                <div class="center-top">
+                    <h2>Наші досягнення</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="image-container">
+                        <img src="photo1.png" alt="Інформаційна карта" class="content-image" usemap="#workmap">
+                        <map name="workmap">
+                            <area shape="rect" coords="0,0,200,200" alt="Послуги" href="page3.html">
+                            <area shape="rect" coords="210,0,400,200" alt="Галерея" href="page4.html">
+                            <area shape="circle" coords="300,300,50" alt="Контакти" href="page5.html">
+                        </map>
+                    </div>
+                </div>
+
+                <div class="center-middle">
+                    <h2>Наша діяльність</h2>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    <div class="image-container">
+                        <img src="photo2.jpeg" alt="Наша діяльність" class="content-image">
+                    </div>
+                </div>
+
+                <div class="center-bottom">
+                    <h2>Додаткова інформація</h2>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate.</p>
+                </div>
+            </div>
+
+            <aside class="right-sidebar">
+                <h3>Важливі посилання</h3>
+                <p>Excepteur sint occaecat cupidatat non proident.</p>
+            </aside>
+        </main>
+
+        <footer class="footer">
+            <h2>Зв'язок з нами</h2>
+            <p>© 2024 Інформаційний портал</p>
+        </footer>
+    </div>
+</body>
+</html>
